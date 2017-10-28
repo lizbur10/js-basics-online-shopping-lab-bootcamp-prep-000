@@ -55,7 +55,7 @@ function total() {
 
 function removeFromCart(item) {
   for (let i=0; i<cart.length; i++) {
-    console.log(cart[i].hasOwnProperty(item));
+//    console.log(cart[i].hasOwnProperty(item));
     if ( cart[i].hasOwnProperty(item) ) {
         cart.splice(i,1);
         console.log(cart);
@@ -83,5 +83,5 @@ addToCart('pineapple');
 viewCart();
 total();
 console.log(cart);
-removeFromCart('strawberries');
+removeFromCart('bananas');
 placeOrder(4444222210109333);
