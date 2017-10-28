@@ -49,7 +49,7 @@ function total() {
     var itemName = Object.keys(cart[i]);
     totalPrice += cart[i][itemName];
   }
-  console.log(totalPrice);
+//  console.log(totalPrice);
   return totalPrice;
 }
 
