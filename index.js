@@ -84,4 +84,4 @@ viewCart();
 total();
 console.log(cart);
 removeFromCart('bananas');
-placeOrder(4444222210109333);
+placeOrder(44422210109333);
