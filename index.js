@@ -86,4 +86,4 @@ viewCart();
 total();
 console.log(cart);
 removeFromCart('guava');
-placeOrder();
+placeOrder(4443332221111);
