@@ -43,8 +43,8 @@ function viewCart() {
   }
 }
 
-var totalPrice=0;
 function total() {
+  totalPrice=0;
   for (let i=0; i<cart.length; i++) {
     var itemName = Object.keys(cart[i]);
     totalPrice += cart[i][itemName];
