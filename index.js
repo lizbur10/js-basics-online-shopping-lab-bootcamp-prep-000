@@ -85,5 +85,5 @@ addToCart('pineapple');
 viewCart();
 total();
 console.log(cart);
-removeFromCart('guava');
+removeFromCart('pineapple');
 placeOrder(4443332221111);
