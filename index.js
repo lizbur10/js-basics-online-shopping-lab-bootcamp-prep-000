@@ -84,3 +84,4 @@ viewCart();
 total();
 console.log(cart);
 removeFromCart('strawberries');
+placeOrder();
