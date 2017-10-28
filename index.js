@@ -84,6 +84,5 @@ addToCart('apples');
 addToCart('pineapple');
 viewCart();
 total();
-console.log(cart);
 removeFromCart('pineapple');
 placeOrder(4443332221111);
