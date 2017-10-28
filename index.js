@@ -57,7 +57,7 @@ function removeFromCart(item) {
   for (let i=0; i<cart.length; i++) {
     console.log(cart[i].hasOwnProperty(item));
     if ( cart[i].hasOwnProperty(item) ) {
-        delete cart[i];
+        cart.splice(i,1);
         console.log(cart);
         return cart;
     }
