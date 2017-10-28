@@ -78,4 +78,4 @@ addToCart('pineapple');
 viewCart();
 total();
 console.log(cart);
-removeFromCart('guava');
+removeFromCart('bananas');
