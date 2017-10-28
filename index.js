@@ -75,7 +75,7 @@ function placeOrder(cardNumber) {
 }
 
 //Code Testing
-
+/*
 addToCart('bananas');
 addToCart('strawberries');
 addToCart('apples');
@@ -85,3 +85,4 @@ total();
 console.log(cart);
 removeFromCart('bananas');
 placeOrder(4444222210109333);
+*/
